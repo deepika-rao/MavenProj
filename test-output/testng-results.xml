@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90187" started-at="2018-02-03T17:23:33Z" finished-at="2018-02-03T17:25:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90187" started-at="2018-02-03T17:23:33Z" finished-at="2018-02-03T17:25:03Z">
+      <class name="example.Test.NewSmokeTest">
+        <test-method status="PASS" signature="SetBase()[pri:0, instance:example.Test.NewSmokeTest@5204062d]" name="SetBase" is-config="true" duration-ms="23027" started-at="2018-02-03T22:53:10Z" finished-at="2018-02-03T22:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetBase -->
+        <test-method status="PASS" signature="f()[pri:0, instance:example.Test.NewSmokeTest@5204062d]" name="f" duration-ms="90167" started-at="2018-02-03T22:53:33Z" finished-at="2018-02-03T22:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- example.Test.NewSmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
