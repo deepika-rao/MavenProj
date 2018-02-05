@@ -50,22 +50,36 @@ private static AppiumDriver driver;
 	}
 	
   @Test
-  public void f() throws InterruptedException {
+  public void Test1() throws InterruptedException {
 	  methods.waitcommand();
+	  
+	  methods.log("Launched application");
 		
 		homescreen.Preference();
 		
+		methods.log("Clicked on Preference");
+		
 		prefpage.Preference_dependencies();	
+		
+		methods.log("Clicked on Preference dependencies");
 		
 		methods.waitcommand();
 		
 		prefdep.WiFi_checkbox();
 		
+		methods.log("Clicked on Wifi checkbox");
+		
 		prefdep.WiFi_settings();
+		
+		methods.log("Clicked on Wifi settings");
 		
 		prefdep.WiFi_name();
 		
+		methods.log("Clicked on Wifi name");
+		
 		prefdep.OKButton();
+		
+		methods.log("Clicked on OK button");
 		
 		((AndroidDriver)driver).pressKeyCode(AndroidKeyCode.BACK);	
   }
